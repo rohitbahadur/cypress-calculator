@@ -19,7 +19,7 @@ describe("perform calculation", function () {
   })
 
   it("should multiply two numbers(9-9)", function () {
-    cy.subtractTwoNumbers()
+    cy.multiplyTwoNumbers()
   })
 
 
