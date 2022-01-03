@@ -1,0 +1,207 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-01-03T00:26:21.213Z",
+    "end": "2022-01-03T00:26:25.661Z",
+    "duration": 4448,
+    "testsRegistered": 6,
+    "passPercent": 83.33333333333334,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f2d4b778-221a-49c0-929e-5965cf543336",
+      "title": "",
+      "fullFile": "cypress/integration/addition.spec.js",
+      "file": "cypress/integration/addition.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+          "title": "perform calculation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add two numbers(9+9)",
+              "fullTitle": "perform calculation should add two numbers(9+9)",
+              "timedOut": null,
+              "duration": 679,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addNumbers();",
+              "err": {},
+              "uuid": "077cb5bb-abd1-4286-96b6-4833fcdff1d9",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should subtract two numbers(9-9)",
+              "fullTitle": "perform calculation should subtract two numbers(9-9)",
+              "timedOut": null,
+              "duration": 402,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.subtractTwoNumbers();",
+              "err": {},
+              "uuid": "3185e128-927c-4117-a1b6-be73d5dbb8ae",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should multiply two numbers(9*9)",
+              "fullTitle": "perform calculation should multiply two numbers(9*9)",
+              "timedOut": null,
+              "duration": 427,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.multiplyTwoNumbers();",
+              "err": {},
+              "uuid": "91bb0ae1-ab24-42f5-82b4-040f7edcfb00",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should divide two numbers(9/9)",
+              "fullTitle": "perform calculation should divide two numbers(9/9)",
+              "timedOut": null,
+              "duration": 417,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.divideTwoNumbers();",
+              "err": {},
+              "uuid": "f95630aa-2777-4865-bf09-730aeccef54f",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return zero upon division by zero(9/0)",
+              "fullTitle": "perform calculation should return zero upon division by zero(9/0)",
+              "timedOut": null,
+              "duration": 242,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.invalidReturnOndivideByZero();",
+              "err": {
+                "message": "Error: test fails here",
+                "estack": "Error: test fails here\n    at Context.eval (https://ahfarmer.github.io/__cypress/tests?p=cypress\\support\\index.js:157:9)",
+                "diff": null
+              },
+              "uuid": "eb353898-4003-4d07-b534-f88f227f24be",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should clear input made by the user",
+              "fullTitle": "perform calculation should clear input made by the user",
+              "timedOut": null,
+              "duration": 413,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.clearInput();",
+              "err": {},
+              "uuid": "cebca38a-cb34-4180-9238-281d2af0e3cb",
+              "parentUUID": "9c0a1fd5-1a6f-4c01-82fe-c9ed6226201d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "077cb5bb-abd1-4286-96b6-4833fcdff1d9",
+            "3185e128-927c-4117-a1b6-be73d5dbb8ae",
+            "91bb0ae1-ab24-42f5-82b4-040f7edcfb00",
+            "f95630aa-2777-4865-bf09-730aeccef54f",
+            "cebca38a-cb34-4180-9238-281d2af0e3cb"
+          ],
+          "failures": [
+            "eb353898-4003-4d07-b534-f88f227f24be"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2580,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
