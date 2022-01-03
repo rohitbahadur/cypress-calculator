@@ -54,5 +54,5 @@ If github is not configured on the system, then project can be downloaded using 
 #### For executing the tests, navigate to the project. We have two options to run the tests:
 
 1. Visual based --> npm run cypress:open--> click on calculation.spec.js 
-2. cmdline based --> npm run cypress-run
+2. cmd line based --> npm run cypress-run
 3. docker command to run the tests docker build -t my-cypress-image:3.4.0 . (ensure that this command is run from inside the folder)
