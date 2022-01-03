@@ -38,7 +38,7 @@ If github is not configured on the system, then project can be downloaded using 
 
 
 #### Project Design Strategy
-#### The project is designed using page object model principles.
+#### The project has a action based principles.
 1. Fixtures --> to fetch data. eg. the url.
 2. Integration folder --> This is the main folder where the tests are placed.
 3. All the test commands are moved inside "KUELAP-->cypress-->support/Command.js" file
