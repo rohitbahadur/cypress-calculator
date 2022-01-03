@@ -18,8 +18,20 @@ describe("perform calculation", function () {
     cy.subtractTwoNumbers()
   })
 
-  it("should multiply two numbers(9-9)", function () {
+  it("should multiply two numbers(9*9)", function () {
     cy.multiplyTwoNumbers()
+  })
+
+  it("should divide two numbers(9/9)", function () {
+    cy.divideTwoNumbers()
+  })
+
+  it("should return zero upon division by zero(9/0)", function () {
+    cy.invalidReturnOndivideByZero()
+  })
+
+  it("should clear input made by the user", function () {
+    cy.clearInput()
   })
 
 

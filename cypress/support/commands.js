@@ -42,8 +42,34 @@ Cypress.Commands.add('subtractTwoNumbers', () => {
 
 Cypress.Commands.add('multiplyTwoNumbers', () => {
   cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
-  cy.get(':nth-child(3) > .orange > button').should('be.visible').click()
+  cy.get(':nth-child(2) > .orange > button').should('be.visible').click()
   cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
   cy.get(':nth-child(5) > .orange > button').should('be.visible').click()
+  cy.get('.component-display > div').contains(`81`)
+})
+
+Cypress.Commands.add('divideTwoNumbers', () => {
+  cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
+  cy.get(':nth-child(1) > .orange > button').should('be.visible').click()
+  cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
+  cy.get(':nth-child(5) > .orange > button').should('be.visible').click()
+  cy.get('.component-display > div').contains(`1`)
+})
+
+Cypress.Commands.add('invalidReturnOndivideByZero', () => {
+  cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
+  cy.get(':nth-child(1) > .orange > button').should('be.visible').click()
+  cy.get('.wide > button').should('be.visible').click()
+
+  cy.get(':nth-child(5) > .orange > button').should('be.visible').click()
+  throw new Error("test fails here")
+
+})
+
+Cypress.Commands.add('clearInput', () => {
+  cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
+  cy.get(':nth-child(1) > .orange > button').should('be.visible').click()
+  cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
+  cy.get(':nth-child(1) > :nth-child(1) > button').should('be.visible').click()
   cy.get('.component-display > div').contains(`0`)
 })
