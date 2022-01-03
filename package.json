@@ -16,7 +16,9 @@
   "author": "rohit bahadur",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.2.0"
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "devDependencies": {
     "cypress-multi-reporters": "^1.5.0",
