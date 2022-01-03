@@ -1,6 +1,6 @@
 # cypress-calculator
 
-Calculator automated web testing cypress based test automation platform for performing UI based functional checks. 
+cypress based test automation platform for performing UI based functional checks. 
 
 ### Tech stack used in building the framework 
 ##### Programming language used: javascript
