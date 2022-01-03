@@ -8,7 +8,7 @@ cypress based test automation platform for performing UI based functional checks
 ##### IDE : VS Code
 
 #### Prerequisite 1
-##### nodejs should be installed on the system.To check if java is available on the system, go to command prompt and type node -version.It should display: 
+##### nodejs should be installed on the system.To check if node is available on the system, go to command prompt and type node -version.It should display: 
     
 e.g v14.15.1 (my current version)
 #### Prerequisite 2 --> Cypress should be installed on the system using npm install cypress --save-dev
