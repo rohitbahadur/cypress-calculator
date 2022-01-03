@@ -1,4 +1,5 @@
 // ***********************************************
+
 // This example commands.js shows you how to
 // create various custom commands and overwrite
 // existing commands.
@@ -23,6 +24,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+/// <reference types="cypress-xpath"/>
 
 Cypress.Commands.add('addNumbers', () => {
   cy.get(':nth-child(2) > :nth-child(3) > button').should('be.visible').click()
