@@ -26,7 +26,7 @@ describe("perform calculation", function () {
     cy.divideTwoNumbers()
   })
 
-  it("should return zero upon division by zero(9/0)", function () {
+  it("should return error upon division by zero(9/0)", function () {
     cy.invalidReturnOndivideByZero()
   })
 
