@@ -43,6 +43,13 @@ If github is not configured on the system, then project can be downloaded using 
 2. Integration folder --> This is the main folder where the tests are placed.
 3. All the test commands are moved inside "KUELAP-->cypress-->support/Command.js" file
 4. reporting--> mochawesome is used as a test reporting plugin ("KUELAP-->cypress-->reports). Everytime the test is run, the test status is updated with new date/time. 
+
+#### Tests.
+1. Addition of two numbers
+2. Subtraction of two numbers
+3. Multiplication of two numbers
+4. Division of two numbers
+5. Division of any number by zero
   
 #### For executing the tests, navigate to the project. We have two options to run the tests:
 
